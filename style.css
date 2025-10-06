@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #2d2f32;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #90939b;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.mycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.mycard {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08), 0 1.5px 6px rgba(44, 62, 80, 0.04);
+    padding: 32px 24px;
+    flex: 1 1 260px;
+    max-width: 320px;
+    min-width: 260px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mycard:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.16), 0 3px 12px rgba(44, 62, 80, 0.08);
+}
+
+.mycard h2 {
+    margin-top: 0;
+    color: #2a3d66;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.mycard p {
+    margin: 0;
+    color: #4a5a6a;
+    font-size: 1rem;
+    line-height: 1.6;
+}
